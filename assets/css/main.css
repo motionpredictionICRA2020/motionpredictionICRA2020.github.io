@@ -198,7 +198,7 @@ input, select, textarea {
 
 		}
 
-	h2, h3, h4, h5 {
+	h2, h3, h4 {
 		font-weight: 900;
 		line-height: 1.5;
 		margin: 0 0 2em 0;
@@ -206,7 +206,11 @@ input, select, textarea {
 		/* letter-spacing: 0.35em;*/
 	}
 
-		h2 a, h3 a, h4 a, h5 a, h6 a {
+	h5 {
+		font-weight: 900;
+	}
+	
+	h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 		}
 
@@ -269,12 +273,20 @@ input, select, textarea {
 				margin: 0 0 1em 0;
 			}
 
+			h5 {
+				font-size: 0.6em;
+			}
+
 		}
 
 		@media screen and (max-width: 360px) {
 
 			h6 {
 				font-size: 1.75em;
+			}
+
+			h5 {
+				font-size: 0.1em;
 			}
 
 		}
