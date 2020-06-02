@@ -362,6 +362,11 @@ input, select, textarea {
     	color: red;
 	}
 
+	.greenText
+	{
+    	color: green;
+	}
+
 /* Row */
 
 	.row {
